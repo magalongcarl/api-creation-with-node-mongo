@@ -1,0 +1,21 @@
+{
+  "name": "mongonode",
+  "version": "1.0.0",
+  "description": "Establishing a foundational connection between a Node.js application and a MongoDB database, followed by the development of an API endpoint. This involves setting up the necessary configurations to facilitate smooth communication between the server and the database, and then creating my initial API call using the API that I have developed. The process includes configuring routes, handling requests, and ensuring the proper functioning of the interaction between the server-side logic and the MongoDB data store.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --watch --env-file=.env src/server.js"
+  },
+  "keywords": [
+    "node",
+    "mongodb",
+    "db", "express"
+  ],
+  "author": "Carl Bajo",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.0.1",
+    "mongodb": "^6.12.0"
+  }
+}
